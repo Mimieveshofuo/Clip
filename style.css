@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+ *{
+     box-sizing: border-box;
+ }
+
+body{
+    font-size: 18px;
+    font-family:" Bai Jamjuree", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+    padding-top: 60px;
+    width: 80%;
+    margin: 0 auto;
+}
+p, footer,section{
+    margin: 0;
+    padding: 0;
+}
+.header-note h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.header-note p{
+    font-size: 30px;
+    font-weight: 400;
+    color: hsl(210, 10%, 33%);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+button{
+   padding:20px 60px;
+    color: white;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+   
+.btn-1{
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 30px;
+}
+.btn-1:hover{
+    background-color: #5DCCBB;
+}
+.btn-2{
+    background-color: hsl(233, 100%, 69%);
+}
+.btn-2:hover{
+    background-color: #8896FF;
+}
+.middle-text{
+    padding-top: 100px;
+
+}
+.background{
+    position: absolute;
+    top: 0px;
+    right:-32px
+}
+.middle-text h1{
+    color: hsl(210, 10%, 33%);
+}
+.middle-text p{
+    font-size: 28px;
+    font-weight: 400;
+    color: hsl(210, 10%, 33%);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.ad{
+    display: flex; 
+    justify-content: space-between; 
+    width: 90%; padding-top: 90px;
+}
+.ad h1 ,p{
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.ad p{
+    width: 70%;
+   
+}
+main{
+    width: 80%; 
+    margin: 0 auto; 
+    padding-top: 100px;
+}
+.text{    
+    text-align: center;
+    color:hsl(210, 10%, 33%);
+    width: 60%;
+    margin: 0 auto;
+}
+.text-2{
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 100px;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+.s{
+    width: 30%;
+}
+.access h1, .ad h1, .hero h1{
+    font-size: 30px;
+}
+
+.hero{
+    text-align: center; 
+    padding-top: 100px; 
+    width: 80%; 
+    margin: 0 auto;
+    color: hsl(210, 10%, 33%);
+}
+.footer-content a{
+    text-decoration: none;
+    display: block;
+    color: hsl(210, 10%, 33%);
+    margin-top: 30px;
+    font-size: 18px;
+}
+.footer-content a:hover, .icon img:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+.text-2 h1{
+    font-size: 24px;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+
+}
+footer{
+    margin-top: 100px;  
+    background-color: #F5F6F8;
+    padding:50px 60px;
+}
+.footer-content{
+    display: flex; 
+    justify-content: space-between; 
+    color: hsl(210,10%,33%);
+    margin-left: 70px;
+    padding-top: 40px;
+    margin-right: 70px;
+}
+.icon{
+    margin-top: 30px;  
+}
+.icon img{
+    margin-left: 20px;
+}
+ .icon img:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+@media screen and (max-width:768px) {
+    header{
+        width: 90%;
+    }
+    .header-note h1, .middle-text h1{
+        font-size: 27px;
+    }
+    .header-note p{
+        font-size: 14px;
+    }
+    .text{
+        width: 100%;
+    }
+    .text-2{
+        display: grid;
+    }
+    .access h1, .ad h1, .hero h1, .add h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .ad p , .access p, .s p, .hero p, .add p{
+        font-size: 14px;
+    }
+    button{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    .btn-1{
+        margin-right: unset;
+    }
+    .middle-text{
+        padding-top: 10rem;
+    }
+    .middle-text p{
+        font-size: 13px;
+    }
+    .ad{
+        display: block;
+        width: 100%;
+    }
+    .ad p{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .text{
+        width: 90%;
+    }
+    section{
+        text-align: center;
+    }
+    .s{
+        width: unset;
+        margin-top: 40px;
+    }
+    .products{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-content{
+        display: block;
+        text-align: center;
+    }
+    .products div{
+        margin-bottom: 50px;
+    }
+    footer{
+        width: fit-content;
+    
+    }
+    .icon{
+    display: flex;
+    justify-content: space-between;
+    }
+    
+}
